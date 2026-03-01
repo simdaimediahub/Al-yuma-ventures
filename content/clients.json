@@ -1,28 +1,15 @@
 {
   "clients": [
     {
-      "name": "Client A (Sample)",
-      "logo": "/assets/img/logo-mark.svg"
+      "name": "Dangote Fertilizers",
+      "logo": "/assets/uploads/dangote-logo.jpg"
     },
     {
-      "name": "Client B (Sample)",
-      "logo": "/assets/img/logo-mark.svg"
+      "name": "Indoroma Fertilizers",
+      "logo": "/assets/uploads/indoroma.png"
     },
     {
-      "name": "Client C (Sample)",
-      "logo": "/assets/img/logo-mark.svg"
-    },
-    {
-      "name": "Client D (Sample)",
-      "logo": "/assets/img/logo-mark.svg"
-    },
-    {
-      "name": "Client E (Sample)",
-      "logo": "/assets/img/logo-mark.svg"
-    },
-    {
-      "name": "Client F (Sample)",
-      "logo": "/assets/img/logo-mark.svg"
+      "name": "Natore"
     }
   ]
 }
