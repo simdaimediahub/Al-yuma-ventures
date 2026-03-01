@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1e3d">
+  <meta name="description" content="Executive agro-chemical suppliers, fertilizer industry and general contractors in Kano, Nigeria.">
+  <title>Projects — Al‑Yuma Ventures Investment Limited</title>
+
+  <!-- Bootstrap 5.3 + Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Animate.css + WOW.js -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/dist/wow.min.js" defer></script>
+
+  <!-- SweetAlert2 -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+
+  <!-- GLightbox -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/css/glightbox.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/js/glightbox.min.js" defer></script>
+
+  <!-- Masonry + Isotope + imagesLoaded (for masonry + filters) -->
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5/imagesloaded.pkgd.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/isotope-layout@3/dist/isotope.pkgd.min.js" defer></script>
+
+  <!-- Custom -->
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+  <!-- Structured data injected by JS -->
+  <script id="orgSchema" type="application/ld+json"></script>
+
+  <!-- Analytics placeholders (optional, CMS editable) -->
+  <!-- Insert GA/Pixel scripts after deploy using CMS settings -->
+</head>
+
+<body data-page="projects">
+  <div id="preloader" class="preloader">
+    <div class="logo-wrap">
+      <img id="preloaderLogo" src="/assets/img/logo-mark.svg" alt="Company Logo" width="96" height="96">
+      <div class="brand">AL‑YUMA</div>
+      <div class="glow"></div>
+      <div class="small mt-2" style="color:rgba(255,255,255,.85)">Executive • Contract‑Ready • Investor‑Ready</div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-glass fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2 fw-bold" href="/index.html">
+        <img src="/assets/img/logo-mark.svg" alt="Al‑Yuma" width="36" height="28" style="object-fit:contain">
+        <span>Al‑Yuma Ventures</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMain">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="/about.html">Company Profile</a></li>
+          <li class="nav-item"><a class="nav-link" href="/services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link active fw-bold text-gold" href="/projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="/branches.html">Branches</a></li>
+          <li class="nav-item"><a class="nav-link" href="/investor.html">Investors</a></li>
+          <li class="nav-item"><a class="nav-link" href="/tender.html">Tender / RFP</a></li>
+          <li class="nav-item"><a class="nav-link" href="/contact.html">Contact</a></li>
+          <li class="nav-item ms-lg-2">
+            <button id="themeToggle" class="btn btn-sm btn-outline-gold" type="button" aria-label="Toggle theme">
+              <i id="themeIcon" class="bi bi-brightness-high-fill"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<main style="padding-top:82px">
+  <section class="section">
+    <div class="container">
+      <div class="text-uppercase small text-gold fw-bold">Projects & Gallery</div>
+      <h1 class="mb-2">Advanced Gallery (Masonry + Filters)</h1>
+      <div class="small-muted mb-4">Editable via CMS (projects.json) • Hover overlay + Lightbox</div>
+
+      <div class="d-flex flex-wrap gap-2 mb-3" id="galleryFilters"></div>
+      <div class="row g-3" id="galleryGrid"></div>
+    </div>
+  </section>
+</main>
+
+  <footer class="footer pt-5 pb-4 mt-0">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-12 col-lg-4">
+          <div class="d-flex align-items-center gap-2">
+            <img src="/assets/img/logo-mark.svg" alt="Al‑Yuma" width="44" height="34" style="object-fit:contain">
+            <div>
+              <div class="fw-bold text-white">Al‑Yuma Ventures Investment Limited</div>
+              <div class="small">Kano, Nigeria</div>
+            </div>
+          </div>
+          <div class="mt-3 small">
+            Agro‑chemical Suppliers • Fertilizer Industry • Investment Experts • General Contractors
+          </div>
+          <div class="mt-3 d-flex gap-2">
+            <a class="btn btn-sm btn-outline-gold" id="whatsAppLink" href="#" target="_blank" rel="noopener"><i class="bi bi-whatsapp me-1"></i>WhatsApp</a>
+            <a class="btn btn-sm btn-outline-gold" href="/tender.html"><i class="bi bi-file-earmark-text me-1"></i>RFP</a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2">
+          <div class="fw-bold text-white mb-2">Company</div>
+          <div class="d-grid gap-1">
+            <a href="/about.html">Profile</a>
+            <a href="/services.html">Services</a>
+            <a href="/projects.html">Projects</a>
+            <a href="/investor.html">Investors</a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2">
+          <div class="fw-bold text-white mb-2">Government</div>
+          <div class="d-grid gap-1">
+            <a href="/tender.html">Tender / RFP</a>
+            <a href="/about.html#compliance">Compliance</a>
+            <a href="/about.html#certifications">Certifications</a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="fw-bold text-white mb-2">Contact</div>
+          <div class="small">
+            <div><i class="bi bi-envelope me-2 text-gold"></i><span class="corpEmail">info@alyuma.example</span></div>
+            <div class="mt-1"><i class="bi bi-telephone me-2 text-gold"></i>08033609355, 08036505853</div>
+            <div class="mt-1"><i class="bi bi-geo-alt me-2 text-gold"></i>Plot 639 Maiduguri Road, Kano, Nigeria</div>
+            <div class="mt-3 small-muted" id="analyticsNote"></div>
+          </div>
+        </div>
+      </div>
+      <hr class="border-light opacity-25 my-4">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-2">
+        <div class="small">© 2026 Al‑Yuma Ventures Investment Limited. All rights reserved.</div>
+        <div class="small">Built for enterprise • Government tender presentation • Investor readiness</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
+  <script src="/assets/js/app.js" defer></script>
+<!-- Netlify Identity (required for CMS login + password recovery) -->
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", function(user) {
+      if (!user) {
+        window.netlifyIdentity.on("login", function() {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+  </script>
+
+</body>
+</html>

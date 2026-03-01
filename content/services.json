@@ -1,0 +1,34 @@
+{
+  "services": [
+    {
+      "title": "Agro‑chemical Supply & Distribution",
+      "summary": "Premium agricultural input sourcing, controlled procurement, and reliable distribution aligned with safety guidelines.",
+      "icon": "bi bi-droplet-half"
+    },
+    {
+      "title": "Fertilizer Industry Support",
+      "summary": "Supply chain support, logistics, and enterprise coordination for fertilizer production and distribution ecosystems.",
+      "icon": "bi bi-box-seam"
+    },
+    {
+      "title": "Government & Institutional Contracting",
+      "summary": "Tender-ready structure, documentation pack, compliance statements, and milestone-based delivery governance.",
+      "icon": "bi bi-building-check"
+    },
+    {
+      "title": "Investment Advisory & Partnership Structuring",
+      "summary": "Investment focus strategy, growth roadmap support, and partnership structuring for sustainable expansion.",
+      "icon": "bi bi-graph-up-arrow"
+    },
+    {
+      "title": "General Contracting",
+      "summary": "End-to-end contracting services with structured reporting, SLA alignment, and accountable project management.",
+      "icon": "bi bi-tools"
+    },
+    {
+      "title": "Procurement Documentation & Compliance",
+      "summary": "Capability statements, certification display, audit-friendly records and transparent procurement workflows.",
+      "icon": "bi bi-shield-check"
+    }
+  ]
+}

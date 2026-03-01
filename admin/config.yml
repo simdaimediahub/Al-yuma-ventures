@@ -1,0 +1,247 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+site_url: "/"
+logo_url: "/assets/img/logo-mark.svg"
+
+collections:
+  - name: "global"
+    label: "Global Site Settings"
+    editor:
+      preview: false
+    files:
+      - file: "content/settings.json"
+        label: "Settings"
+        name: "settings"
+        format: "json"
+        fields:
+          - { label: "Brand", name: "brand", widget: "object", fields:
+              [
+                {label: "Name", name: "name", widget: "string"},
+                {label: "Logo", name: "logo", widget: "image", required: false},
+                {label: "Site URL", name: "siteUrl", widget: "string", required: false},
+                {label: "Theme Color", name: "themeColor", widget: "string", default: "#0b1e3d"}
+              ]
+            }
+          - { label: "Contact", name: "contact", widget: "object", fields:
+              [
+                {label: "Corporate Email", name: "email", widget: "string"},
+                {label: "Phone", name: "phone", widget: "string", required: false},
+                {label: "WhatsApp (international format, digits only)", name: "whatsapp", widget: "string", required: false}
+              ]
+            }
+          - { label: "SEO", name: "seo", widget: "object", fields:
+              [
+                {label: "Meta Title", name: "title", widget: "string"},
+                {label: "Meta Description", name: "description", widget: "text"}
+              ]
+            }
+          - { label: "Theme", name: "theme", widget: "object", fields:
+              [
+                {label: "Default Theme", name: "default", widget: "select", options: ["light","dark"], default: "light"}
+              ]
+            }
+          - { label: "Preloader", name: "preloader", widget: "object", fields:
+              [
+                {label: "Enabled", name: "enabled", widget: "boolean", default: true}
+              ]
+            }
+          - { label: "Hero", name: "hero", widget: "object", fields:
+              [
+                {label: "Badge Text", name: "badge", widget: "string"},
+                {label: "Headline", name: "headline", widget: "string"},
+                {label: "Subheadline", name: "subheadline", widget: "text"},
+                {label: "Background Image", name: "background", widget: "image", required: false}
+              ]
+            }
+          - { label: "Company Profile", name: "companyProfile", widget: "object", fields:
+              [
+                {label: "Registration Info", name: "registrationInfo", widget: "string"},
+                {label: "Years of Operation", name: "yearsOfOperation", widget: "string"},
+                {label: "Operational Sectors", name: "operationalSectors", widget: "list"},
+                {label: "Corporate Objectives", name: "objectives", widget: "text"},
+                {label: "Compliance & Safety Standards", name: "complianceStandards", widget: "text"}
+              ]
+            }
+          - { label: "Operational Strength & Capacity", name: "capacity", widget: "object", fields:
+              [
+                {label: "Fleet Size", name: "fleetSize", widget: "number", value_type: "int"},
+                {label: "Projects Delivered", name: "projectsDelivered", widget: "number", value_type: "int"},
+                {label: "Corporate Partnerships", name: "partnerships", widget: "number", value_type: "int"},
+                {label: "Geographic Coverage (count)", name: "geographicCoverage", widget: "number", value_type: "int"},
+                {label: "Compliance Certifications (count)", name: "certifications", widget: "number", value_type: "int"}
+              ]
+            }
+          - { label: "Analytics", name: "analytics", widget: "object", required: false, fields:
+              [
+                {label: "Google Analytics ID", name: "googleAnalyticsId", widget: "string", required: false},
+                {label: "Facebook Pixel ID", name: "facebookPixelId", widget: "string", required: false}
+              ]
+            }
+          - { label: "Social Links", name: "social", widget: "object", required: false, fields:
+              [
+                {label: "Links (URLs)", name: "links", widget: "list", required: false}
+              ]
+            }
+
+      - file: "content/ticker.json"
+        label: "Ticker Bar"
+        name: "ticker"
+        format: "json"
+        fields:
+          - { label: "Items", name: "items", widget: "list" }
+
+  - name: "services"
+    label: "Services"
+    format: "json"
+    editor:
+      preview: false
+    files:
+      - file: "content/services.json"
+        label: "Services List"
+        name: "services_list"
+        fields:
+          - label: "Services"
+            name: "services"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Summary", name: "summary", widget: "text"}
+              - {label: "Icon (Bootstrap Icons class)", name: "icon", widget: "string", required: false}
+
+  - name: "projects"
+    label: "Projects"
+    format: "json"
+    editor:
+      preview: false
+    files:
+      - file: "content/projects.json"
+        label: "Projects + Gallery"
+        name: "projects_list"
+        fields:
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Category", name: "category", widget: "string"}
+              - label: "Images"
+                name: "images"
+                widget: "list"
+                fields:
+                  - {label: "Image", name: "url", widget: "image"}
+                  - {label: "Alt", name: "alt", widget: "string", required: false}
+                  - {label: "Caption", name: "caption", widget: "string", required: false}
+
+  - name: "branches"
+    label: "Branches"
+    format: "json"
+    editor:
+      preview: false
+    files:
+      - file: "content/branches.json"
+        label: "Branches"
+        name: "branches_list"
+        fields:
+          - label: "Branches"
+            name: "branches"
+            widget: "list"
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Address", name: "address", widget: "text"}
+              - {label: "Phone", name: "phone", widget: "string", required: false}
+              - {label: "Email", name: "email", widget: "string", required: false}
+
+  - name: "testimonials"
+    label: "Testimonials"
+    format: "json"
+    editor:
+      preview: false
+    files:
+      - file: "content/testimonials.json"
+        label: "Testimonials"
+        name: "testimonials_list"
+        fields:
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "list"
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Role/Org", name: "role", widget: "string", required: false}
+              - {label: "Quote", name: "quote", widget: "text"}
+              - {label: "Photo", name: "photo", widget: "image", required: false}
+
+  - name: "certifications"
+    label: "Certifications"
+    format: "json"
+    editor:
+      preview: false
+    files:
+      - file: "content/certifications.json"
+        label: "Certifications"
+        name: "certifications_list"
+        fields:
+          - label: "Certifications"
+            name: "certifications"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Issuer", name: "issuer", widget: "string", required: false}
+              - {label: "Certificate File", name: "file", widget: "file", required: false}
+
+  - name: "investor"
+    label: "Investor Data"
+    format: "json"
+    editor:
+      preview: false
+    files:
+      - file: "content/investor.json"
+        label: "Investor Content"
+        name: "investor_content"
+        fields:
+          - {label: "Market Expansion Plan", name: "marketExpansionPlan", widget: "text"}
+          - {label: "Strategic Partnerships", name: "strategicPartnerships", widget: "text"}
+          - {label: "Investment Focus Areas", name: "investmentFocusAreas", widget: "list"}
+          - {label: "Long-term Objectives", name: "longTermObjectives", widget: "text"}
+          - label: "Financial Highlights"
+            name: "financialHighlights"
+            widget: "object"
+            fields:
+              - {label: "Revenue Growth %", name: "revenueGrowth", widget: "string"}
+              - {label: "Operational Expansion", name: "operationalExpansion", widget: "string"}
+              - {label: "Market Penetration", name: "marketPenetration", widget: "string"}
+              - {label: "Investment Outlook", name: "investmentOutlook", widget: "string"}
+
+  - name: "tender"
+    label: "Tender Page Content"
+    format: "json"
+    editor:
+      preview: false
+    files:
+      - file: "content/tender.json"
+        label: "Tender Page"
+        name: "tender_content"
+        fields:
+          - {label: "Intro Text", name: "intro", widget: "text"}
+          - {label: "Capability Statement File", name: "capabilityStatement", widget: "file", required: false}
+
+  - name: "clients"
+    label: "Corporate Clients Logos"
+    format: "json"
+    editor:
+      preview: false
+    files:
+      - file: "content/clients.json"
+        label: "Clients"
+        name: "clients_list"
+        fields:
+          - label: "Clients"
+            name: "clients"
+            widget: "list"
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Logo", name: "logo", widget: "image", required: false}

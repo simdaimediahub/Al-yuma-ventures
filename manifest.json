@@ -1,0 +1,16 @@
+{
+  "name": "Al‑Yuma Ventures Investment Limited",
+  "short_name": "Al‑Yuma",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0b1e3d",
+  "theme_color": "#0b1e3d",
+  "icons": [
+    {
+      "src": "/assets/img/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

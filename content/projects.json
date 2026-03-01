@@ -1,0 +1,46 @@
+{
+  "projects": [
+    {
+      "title": "Agro‑chemical Supply Chain Delivery",
+      "category": "Supplies",
+      "images": [
+        {
+          "url": "/assets/uploads/project-1.svg",
+          "alt": "Agro-chemical supply chain delivery"
+        },
+        {
+          "url": "/assets/uploads/project-2.svg",
+          "alt": "Distribution and logistics"
+        }
+      ]
+    },
+    {
+      "title": "Fertilizer Distribution Support",
+      "category": "Fertilizer",
+      "images": [
+        {
+          "url": "/assets/uploads/project-3.svg",
+          "alt": "Fertilizer distribution support"
+        },
+        {
+          "url": "/assets/uploads/project-4.svg",
+          "alt": "Warehouse & logistics coordination"
+        }
+      ]
+    },
+    {
+      "title": "Government Contract Execution",
+      "category": "Contracting",
+      "images": [
+        {
+          "url": "/assets/uploads/project-5.svg",
+          "alt": "Government contract execution"
+        },
+        {
+          "url": "/assets/uploads/project-6.svg",
+          "alt": "Compliance documentation set"
+        }
+      ]
+    }
+  ]
+}

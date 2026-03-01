@@ -1,0 +1,56 @@
+{
+  "brand": {
+    "name": "Al-Yuma Ventures Investment Limited",
+    "logo": "/assets/img/logo-mark.svg",
+    "siteUrl": "https://alyuma.example",
+    "themeColor": "#0b1e3d"
+  },
+  "contact": {
+    "email": "alyumaventures@gmail.com",
+    "phone": "08033609355, 08036505853",
+    "whatsapp": "2348033609355"
+  },
+  "seo": {
+    "title": "Al‑Yuma Ventures Investment Limited | Kano, Nigeria",
+    "description": "Executive agro‑chemical suppliers, fertilizer industry support, investment expertise, and general contracting — structured for government tenders and investor presentations."
+  },
+  "theme": {
+    "default": "light"
+  },
+  "preloader": {
+    "enabled": true
+  },
+  "hero": {
+    "badge": "Government & Investor Ready",
+    "headline": "Premium Enterprise Solutions for Agriculture, Industry & Contract Delivery",
+    "subheadline": "Agro‑chemical supplies • Fertilizer industry support • General contracting • Investment expertise — structured for government tenders and international partners.",
+    "background": ""
+  },
+  "companyProfile": {
+    "registrationInfo": "RC: (Add company registration number via CMS)",
+    "yearsOfOperation": "—",
+    "operationalSectors": [
+      "Agro‑chemical Supplies",
+      "Fertilizer Industry",
+      "Investment",
+      "General Contracting"
+    ],
+    "objectives": "Deliver reliable, compliant, and value‑driven solutions across agricultural inputs, industrial supply, and contracting—supported by strong governance and transparent delivery.",
+    "complianceStandards": "We maintain a compliance-first culture, focusing on safety, regulatory alignment, procurement integrity, and quality assurance across all engagements.",
+    "headOfficeAddress": "Plot 639 Maiduguri Road, Kano, Nigeria"
+  },
+  "capacity": {
+    "fleetSize": 12,
+    "projectsDelivered": 85,
+    "partnerships": 24,
+    "geographicCoverage": 12,
+    "certifications": 8
+  },
+  "analytics": {
+    "googleAnalyticsId": "",
+    "facebookPixelId": ""
+  },
+  "social": {
+    "links": []
+  }
+}

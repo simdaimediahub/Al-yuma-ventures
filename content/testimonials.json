@@ -1,0 +1,22 @@
+{
+  "testimonials": [
+    {
+      "name": "Procurement Officer (Sample)",
+      "role": "Public Sector",
+      "quote": "Structured documentation, clear delivery milestones, and professional communication throughout engagement.",
+      "photo": "/assets/img/avatar.svg"
+    },
+    {
+      "name": "Corporate Partner (Sample)",
+      "role": "Industry",
+      "quote": "Reliable supply coordination and transparent reporting that supports enterprise requirements.",
+      "photo": "/assets/img/avatar.svg"
+    },
+    {
+      "name": "Investor Liaison (Sample)",
+      "role": "Advisory",
+      "quote": "Investor-ready narrative and roadmap structure suitable for presentations and due diligence.",
+      "photo": "/assets/img/avatar.svg"
+    }
+  ]
+}
