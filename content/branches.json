@@ -5,6 +5,24 @@
       "address": "Plot 639 Maiduguri Road, Kano, Nigeria",
       "phone": "08033609355, 08036505853",
       "email": "alyumaventures@gmail.com"
+    },
+    {
+      "name": "Jigawa Branch -- Dutse",
+      "address": "Kiyawa Road, Dutse",
+      "email": "alyumaventures@gmail.com",
+      "phone": "08033609355, 08036505853"
+    },
+    {
+      "name": "Zamfar Branch-- Gusau",
+      "address": "Gusau",
+      "phone": "08033609355, 08036505853",
+      "email": "alyumaventures@gmail.com"
+    },
+    {
+      "name": "Kaduna - Zaria",
+      "address": "Kaduna-Kano express way Zariaa",
+      "email": "alyumaventures@gmail.com",
+      "phone": "08033609355, 08036505853"
     }
   ]
 }
