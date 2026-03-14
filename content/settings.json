@@ -11,7 +11,7 @@
   "brand": {
     "name": "Al-Yuma Ventures Investment Limited",
     "logo": "/assets/img/logo-mark.svg",
-    "siteUrl": "https://alyuma.example",
+    "siteUrl": "https://alyumaventureltd.netlify.app/",
     "themeColor": "#0b1e3d"
   },
   "theme": {
@@ -19,7 +19,7 @@
   },
   "companyProfile": {
     "registrationInfo": "RC: 335411",
-    "yearsOfOperation": "—",
+    "yearsOfOperation": "25",
     "operationalSectors": [
       "Agro‑chemical Supplies",
       "Fertilizer Industry",
@@ -44,7 +44,7 @@
     "certifications": 8
   },
   "hero": {
-    "badge": "Government & Investor Ready",
+    "badge": "Al-yuma Venture | AF&C Nagari Fertilizer",
     "headline": "Premium Enterprise Solutions for Agriculture, Industry & Contract Delivery",
     "subheadline": "Agro‑chemical supplies • Fertilizer industry support • General contracting • Investment expertise — structured for government tenders and international partners.",
     "background": "/assets/uploads/npk.jfif"
